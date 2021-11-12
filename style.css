@@ -1,0 +1,77 @@
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;*/
+/*https://demo.wpthemego.com/themes/sw_maxshop/*/
+body{
+	font-family: 'Montserrat', sans-serif;
+	background-color: #FFAB4C;
+}
+#topbar{
+	padding: 5px 0;
+	font-size: 12px;
+	background-color: #FFAB4C;
+}
+#topbar a{
+	color: white;
+	letter-spacing: 2px
+}
+#topbar .nav-link{
+	padding-left: 0;
+	padding-right: 0;
+}
+#header{
+	padding: 100px 0 50px 0;
+	background-color: #FF5F7E;
+	min-height: 100vh;
+}
+#header .display-1{
+	padding-top: 70px;
+	font-weight: 800;
+	letter-spacing: 15px;
+}
+#header p{
+	letter-spacing: 2px;
+	font-family: 'Poppins', sans-serif;
+}
+#header .text-center{
+	padding: 50px;
+}
+.fa-plug{
+	font-size: 200px
+}
+#brands{
+	background-color: #B000B9;
+}
+#brands a{
+	color: white;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+.tag{
+	background-color: #B000B9;
+/*	padding:8px 15px; */
+	font-size: 20px
+}
+.list-group-item{
+	background-color: #FFAB4C;
+	margin-right: 30px;
+	border-color:  black;
+	text-transform: uppercase;
+}
+.list-group-item.active{
+	background-color: #B000B9;
+		border-color:  #B000B9;
+		letter-spacing: 2px;
+}
+.carousel-caption{
+	background-color: black;
+	opacity: 0.6
+}
+.navbar-light .navbar-toggler{
+	border:none;
+}
+.navbar-toggler:focus{
+	box-shadow: none;
+}
+footer i{
+	font-size: 18px
+}
