@@ -4,6 +4,7 @@ font-family: 'Poppins', sans-serif;*/
 body{
 	font-family: 'Montserrat', sans-serif;
 	background-color: #FFAB4C;
+	/*overflow: hidden;*/
 }
 #topbar{
 	padding: 5px 0;
@@ -74,4 +75,11 @@ body{
 }
 footer i{
 	font-size: 18px
+}
+
+@media only screen and (max-width: 576px) {
+	#header .display-1{
+		font-size: 24px;
+		padding-top: 0px;
+	}
 }
