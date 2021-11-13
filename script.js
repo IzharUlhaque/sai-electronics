@@ -10,8 +10,5 @@ $(document).ready(function(){
   	let url = `https://wa.me/918275219250?text=Name : ${name}%0aEmail: ${email}%0aI am looking for ${requirement}`
   	let whatsAppLink = url.replace(/ /g, '%20');
 	  goToURL(whatsAppLink);
-	  $('#name').value = '';
-	  $('#email').value = '';
-	  $('requirement').value = '';
   });
 });
