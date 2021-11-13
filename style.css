@@ -47,11 +47,7 @@ body{
 	letter-spacing: 3px;
 	text-transform: uppercase;
 }
-.tag{
-	background-color: #B000B9;
-/*	padding:8px 15px; */
-	font-size: 20px
-}
+
 .list-group-item{
 	background-color: #FFAB4C;
 	margin-right: 30px;
@@ -63,10 +59,7 @@ body{
 		border-color:  #B000B9;
 		letter-spacing: 2px;
 }
-.carousel-caption{
-	background-color: black;
-	opacity: 0.6
-}
+
 .navbar-light .navbar-toggler{
 	border:none;
 }
@@ -75,6 +68,23 @@ body{
 }
 footer i{
 	font-size: 18px
+}
+#store-bg{
+	background-image: url(store-bg.jpg);
+	height: 300px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.discount{
+	margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.4);
+  letter-spacing: 5px
 }
 
 @media only screen and (max-width: 576px) {
